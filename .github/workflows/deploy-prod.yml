@@ -51,7 +51,7 @@ jobs:
       - name: Download built artifact
         uses: actions/download-artifact@master
         with:
-          name: webpack artifact
+          name: webpack artifacts
           path: public
 
       - name: Build, Tag, Push
